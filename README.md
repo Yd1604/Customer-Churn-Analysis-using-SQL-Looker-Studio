@@ -90,6 +90,7 @@ Offer bundled plans and promotional discounts to customers with higher monthly c
 Develop targeted customer retention campaigns for high-risk customer groups.
 
 _Skills Demonstrated_
+
 SQL Data Analysis
 Google BigQuery
 KPI Reporting
