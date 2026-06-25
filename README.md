@@ -14,11 +14,11 @@ Customer churn is one of the biggest challenges for subscription-based businesse
 The company wants to understand:
 
 
-How many customers have churned?\
+How many customers have churned?
 
-Which customer groups are most likely to churn?\
+Which customer groups are most likely to churn?
 
-Which services are associated with higher churn?\
+Which services are associated with higher churn?
 
 What actions can help reduce customer churn?
 
