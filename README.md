@@ -2,14 +2,22 @@
 **Customer Churn Analysis using SQL & Looker Studio** 
 
 _Project Overview_
+
+
 This project analyzes customer churn using SQL in Google BigQuery and visualizes the results using Looker Studio. The objective of the project is to identify the factors contributing to customer churn and provide business recommendations that could help improve customer retention.
 
 _Business Problem_
+
+
 Customer churn is one of the biggest challenges for subscription-based businesses.
 
 The company wants to understand:
+
+
 How many customers have churned?
-Which customer groups are most likely to churn?
+
+
+Which customer groups are most likely to churn?\
 Which services are associated with higher churn?
 What actions can help reduce customer churn?
 
