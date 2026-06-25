@@ -1,0 +1,83 @@
+1. Table Limit set to 10 
+
+SELECT *
+FROM `portfolio_projects.customer_churn`
+LIMIT 10;
+
+
+2. Total Customers
+
+SELECT
+COUNT(*) AS Total_Customers
+FROM `portfolio_projects.customer_churn`;
+
+
+3. Total Churned Customers
+
+SELECT
+COUNT(*) AS Churned_Customers
+FROM `portfolio_projects.customer_churn`
+WHERE Churn = TRUE;
+
+
+4. Customer Churn Rate
+
+SELECT
+ROUND(
+(COUNTIF(Churn = TRUE) * 100.0) / COUNT(*),
+2
+) AS Churn_Rate
+FROM `portfolio_projects.customer_churn`;
+
+
+5. Churn by Contract Type
+
+
+SELECT
+Contract,
+COUNT(*) AS Churned_Customers
+FROM `portfolio_projects.customer_churn`
+WHERE Churn = TRUE
+GROUP BY Contract
+ORDER BY Churned_Customers DESC;
+
+
+6. Churn by Internet Service
+
+SELECT
+InternetService,
+COUNT(*) AS Churned_Customers
+FROM `portfolio_projects.customer_churn`
+WHERE Churn = TRUE
+GROUP BY InternetService
+ORDER BY Churned_Customers DESC;
+
+
+7. Average Monthly Charges of Churned Customers
+
+
+SELECT
+ROUND(AVG(MonthlyCharges),2) AS Avg_Monthly_Charge
+FROM `portfolio_projects.customer_churn`
+WHERE Churn = TRUE;
+
+
+
+8. Compare Monthly Charges
+Churned vs Non-Churned Customers
+
+SELECT
+Churn,
+ROUND(AVG(MonthlyCharges),2) AS Avg_Monthly_Charge
+FROM `portfolio_projects.customer_churn`
+GROUP BY Churn;
+
+
+9. Churn by Senior Citizen
+
+SELECT
+SeniorCitizen,
+COUNT(*) AS Churned_Customers
+FROM `portfolio_projects.customer_churn`
+WHERE Churn = TRUE
+GROUP BY SeniorCitizen;
