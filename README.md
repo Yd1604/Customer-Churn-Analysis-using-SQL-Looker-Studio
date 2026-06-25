@@ -14,6 +14,8 @@ Which services are associated with higher churn?
 What actions can help reduce customer churn?
 
 _Tools Used_
+
+
 Google BigQuery
 SQL
 Looker Studio
