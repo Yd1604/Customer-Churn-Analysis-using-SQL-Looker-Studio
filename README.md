@@ -15,13 +15,20 @@ What actions can help reduce customer churn?
 
 _Tools Used_
 
-
 Google BigQuery
+
+
 SQL
+
+
 Looker Studio
+
+
 GitHub
 
 _Dataset_
+
+
 Dataset: IBM Telco Customer Churn Dataset
 The dataset contains information about over 7,000 customers, including:
 
