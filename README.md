@@ -21,7 +21,7 @@ This project aims to answer the following business questions:
 
 
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Google BigQuery
 - SQL
