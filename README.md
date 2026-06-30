@@ -126,6 +126,9 @@ Based on the findings, the following recommendations were identified:
 - Offer bundled packages and promotional discounts to customers with higher monthly charges.
 - Develop targeted customer retention campaigns for high-risk customer groups.
 
+## Dashboard Preview 
+
+<img width="2880" height="1800" alt="Image 30-06-2026 at 22 47" src="https://github.com/user-attachments/assets/271fd351-caaf-4a33-b74e-c7608d2a2420" />
 
 
 ## Skills Demonstrated
